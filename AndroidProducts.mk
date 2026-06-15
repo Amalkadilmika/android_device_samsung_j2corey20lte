@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_j2corey20lte.mk
+    $(LOCAL_DIR)/twrp_j2corey20lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_j2corey20lte-user \
-    omni_j2corey20lte-userdebug \
-    omni_j2corey20lte-eng
+    twrp_j2corey20lte-user \
+    twrp_j2corey20lte-userdebug \
+    twrp_j2corey20lte-eng
