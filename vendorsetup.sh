@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_j2corey20lte-user
-add_lunch_combo omni_j2corey20lte-userdebug
-add_lunch_combo omni_j2corey20lte-eng
+add_lunch_combo twrp_j2corey20lte-user
+add_lunch_combo twrp_j2corey20lte-userdebug
+add_lunch_combo twrp_j2corey20lte-eng
