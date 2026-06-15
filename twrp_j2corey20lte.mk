@@ -8,14 +8,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from j2corey20lte device
 $(call inherit-product, device/samsung/j2corey20lte/device.mk)
 
 PRODUCT_DEVICE := j2corey20lte
-PRODUCT_NAME := omni_j2corey20lte
+PRODUCT_NAME := twrp_j2corey20lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-J260GU
 PRODUCT_MANUFACTURER := samsung
